@@ -1,22 +1,43 @@
 :root {
     --heading-background-color:#054A91;
     --heading-text-color:#dbe4ee;
-    --heading-font:'rockwell extra bold';
+    --heading-font:'rockwell extra bold';  
     --text-font:'aptos mono';
+    --paragraph-font: 'aptos mono';
+    --paragraph-text-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 1200px;
 }
 
 div.hero img {
     display: block;
     width: 100%;
     height: auto;
+    position: relative;
 }
 
-.h1 {
+h1 {
     position: absolute;
+    top: 200px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 400px;
+    font-size: 50px;
 }
 
 article {
     position: absolute;
+    top: 25px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
 }
 
 article .img {

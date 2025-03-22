@@ -1,0 +1,29 @@
+:root {
+    --heading-background-color:#054A91;
+    --heading-text-color:#dbe4ee;
+    --heading-font:'rockwell extra bold';
+    --text-font:'aptos mono';
+}
+
+div.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+}
+
+article .img {
+    float: right;
+}
+
+footer {
+    text-decoration: none;
+}
+

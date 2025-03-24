@@ -32,6 +32,8 @@ h1 {
     font-size: 50px;
 }
 
+
+
 .nav {
     position: absolute;
     margin-top: 25px;
@@ -48,6 +50,7 @@ article p {
 
 article img {
     float: right;
+    width: 100px;
 }
 
 .footer {

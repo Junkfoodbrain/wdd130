@@ -44,17 +44,17 @@ h1 {
 
 article {
     position: absolute;
-    top: 800px;
-    right: 0;
-    left: 0;
+    top: 400px;
+    right: 200;
+    left: 200;
     margin: 0 auto;
+    background-color: #81a4cd;
 }
 
 article img {
-    size: 1em;
     float: right;
     width: 50px;
-    background-color:#81a4cd;
+    /* background-color:#81a4cd; */
 }
 
 .footer {

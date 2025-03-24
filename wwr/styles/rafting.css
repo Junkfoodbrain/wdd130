@@ -1,6 +1,6 @@
 :root {
     --heading-background-color:#054A91;
-    --heading-text-color:#f17300;
+    --heading-text-color:#81a4cd;
     --heading-font:'rockwell extra bold';  
     --text-font:'aptos mono';
     --paragraph-font: 'aptos mono';
@@ -11,16 +11,18 @@ a {
     text-decoration: none;
 }
 
-body {
-    width: 1200px;
-}
-
 .hero img {
     display: block;
     width: 100%;
     height: auto;
     position: relative;
 }
+
+body {
+    width: 1200px;
+}
+
+
 
 h1 {
     position: absolute;
@@ -40,7 +42,7 @@ h1 {
 }
 
 
-article p {
+article {
     position: absolute;
     top: 800px;
     right: 0;
@@ -49,8 +51,10 @@ article p {
 }
 
 article img {
+    size: 1em;
     float: right;
-    width: 100px;
+    width: 50px;
+    background-color:#81a4cd;
 }
 
 .footer {

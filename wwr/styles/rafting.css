@@ -1,6 +1,6 @@
 :root {
     --heading-background-color:#054A91;
-    --heading-text-color:#dbe4ee;
+    --heading-text-color:#f17300;
     --heading-font:'rockwell extra bold';  
     --text-font:'aptos mono';
     --paragraph-font: 'aptos mono';
@@ -32,13 +32,13 @@ h1 {
     font-size: 50px;
 }
 
-nav {
+.nav {
     position: absolute;
     margin-top: 25px;
 }
 
 
-article {
+article p {
     position: absolute;
     top: 800px;
     right: 0;
@@ -50,7 +50,7 @@ article .img {
     float: right;
 }
 
-footer {
+.footer {
     text-decoration: none;
 }
 

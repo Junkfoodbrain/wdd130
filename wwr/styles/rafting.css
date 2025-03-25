@@ -1,9 +1,9 @@
 :root {
     --heading-background-color:#054A91;
     --heading-text-color:#81a4cd;
-    --heading-font:'rockwell extra bold';  
-    --text-font:'aptos mono';
-    --paragraph-font: 'aptos mono';
+    --heading-font:'Permanent Marker';  
+    --text-font:'Roboto';
+    --paragraph-font: 'Roboto';
     --paragraph-text-color: black;
 }
 
@@ -20,6 +20,7 @@ a {
 
 body {
     width: 1200px;
+    margin: 0 auto;
 }
 
 
@@ -44,16 +45,18 @@ h1 {
 
 article {
     position: absolute;
-    top: 400px;
-    right: 200;
-    left: 200;
+    top: 350px;
+    right: 0;
+    left: 0;
     margin: 0 auto;
     background-color: #81a4cd;
+    width: 60%;
+    padding: 10px;
 }
 
-article img {
+.hero article img {
     float: right;
-    width: 50px;
+    width: 200px;
     /* background-color:#81a4cd; */
 }
 

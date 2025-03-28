@@ -11,6 +11,12 @@ a {
     text-decoration: none;
 }
 
+.hero {
+    margin: 0 auto;
+    position: relative;
+    border: 10px;
+}
+
 .hero img {
     display: block;
     width: 100%;

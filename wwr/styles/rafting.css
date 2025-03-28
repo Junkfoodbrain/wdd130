@@ -29,8 +29,6 @@ body {
     margin: 0 auto;
 }
 
-
-
 h1 {
     position: absolute;
     top: 200px;
@@ -40,8 +38,6 @@ h1 {
     width: 400px;
     font-size: 50px;
 }
-
-
 
 .nav {
     position: absolute;

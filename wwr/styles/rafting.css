@@ -1,9 +1,9 @@
 :root {
     --heading-background-color:#054A91;
     --heading-text-color:#81a4cd;
-    --heading-font:'Permanent Marker';  
-    --text-font:'Roboto';
-    --paragraph-font:'Roboto';
+    --heading-font:'permanent marker';  
+    --text-font:'roboto';
+    --paragraph-font:'roboto';
     --paragraph-text-color: black;
 }
 
@@ -19,6 +19,7 @@ a {
 
 .hero img {
     display: block;
+    border: 5px solid #000;
     width: 100%;
     height: auto;
     position: relative;
@@ -29,31 +30,99 @@ body {
     margin: 0 auto;
 }
 
+header {
+    display: grid;    
+    grid-template-columns: 20% 1fr;
+    border-bottom: 10px solid #054A91;  
+}
+
 h1 {
     position: absolute;
-    top: 200px;
+    top: 100px;
     right: 0;
     left: 0;
     margin: 0 auto;
-    width: 400px;
-    font-size: 50px;
+    width: 600px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'permanent marker';
+}
+
+h2 {
+    /* border: 1px solid #000; */
+    text-align: center;    
+}
+
+.adventure {
+    width: 100%;
+    border: 5px solid #054a91;
+    background-color: #81a4cd;
+    font-family: 'roboto';
+    
+}
+
+.history {
+    width: 100%;
+    border: 5px solid #054a91;
+    font-family: 'roboto';
+    text-align: center;
+    background-color: #81a4cd;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.figure_flex {
+    display: flex;
+    align-items: center;    
+}
+
+figure img {
+    width: 200px;
+}
+
+figure {
+    padding: 5;
+    margin: 10px auto;
+    align-content: center;
 }
 
 .nav {
     position: absolute;
-    margin-top: 25px;
+    margin-top: 25px;    
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: right;
+  }
+
+.navigation {
+    display: flex;   
+    flex-wrap: wrap;
+    list-style: none;   
+    font-family: roboto;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    font-size: 2rem;    
 }
 
 
 article {
     position: absolute;
-    top: 600px;
+    border: 1px solid #000;
+    top: 550px;
     right: 0;
     left: 0;
     margin: 0 auto;
     background-color: #81a4cd;
     width: 60%;
-    padding: 10px;
+    padding: 20px;   
 }
 
 .hero article img {
@@ -63,8 +132,11 @@ article {
 }
 
 
-
 .footer {
     text-decoration: none;
+}
+
+.sociallinks {
+    float: right;    
 }
 

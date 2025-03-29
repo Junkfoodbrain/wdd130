@@ -89,7 +89,7 @@ figure img {
 }
 
 figure {
-    padding: 5;
+    padding: 5px;
     margin: 10px auto;
     align-content: center;
 }
@@ -99,8 +99,7 @@ figure {
     margin-top: 25px;    
     display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: right;
-  }
+}
 
 .navigation {
     display: flex;   

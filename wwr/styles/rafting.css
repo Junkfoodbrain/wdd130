@@ -143,12 +143,16 @@ article p {
 }
 
 
-.footer {
+footer {
     text-decoration: none;
-    padding: 1px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    text-align: center;
 }
 
 .sociallinks {
-    float: right;
+    display: flex;
+    justify-content: flex-end;
 }
 

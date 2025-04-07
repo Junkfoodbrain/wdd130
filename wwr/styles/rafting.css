@@ -156,6 +156,16 @@ article p {
     grid-column: 1fr 1fr 1fr;   
 }
 
+input[type=submit] {
+    padding: 10px 15px;
+    background: #f17300;
+    border: 0 none;
+    font-size: 2rem;
+}
+
+.form {
+    font-family: roboto;
+}
    
 .team {
     background-color: #054A91;

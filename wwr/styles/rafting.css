@@ -153,7 +153,8 @@ article p {
     background-color: #054A91;
     font-size: 2rem;
     color:#81a4cd; 
-    grid-column: 3fr;   
+    display: grid;
+    grid-template-columns: 3fr;   
 }
 
 input[type=submit] {

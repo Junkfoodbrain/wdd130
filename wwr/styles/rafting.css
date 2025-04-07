@@ -142,6 +142,24 @@ article p {
     width: 200px;
 }
 
+.grid-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: #054A91;
+}
+
+.grid-container {
+    background-color: #054A91;
+    font-size: 2rem;
+    color:#81a4cd; 
+    grid-column: 1fr 1fr 1fr;   
+}
+
+   
+.team {
+    background-color: #054A91;
+}
 
 footer {
     text-decoration: none;

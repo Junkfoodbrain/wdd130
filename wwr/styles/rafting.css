@@ -154,7 +154,6 @@ article p {
     font-size: 2rem;
     color:#81a4cd; 
     display: grid;
-    grid-template-columns: 3fr;   
 }
 
 input[type=submit] {

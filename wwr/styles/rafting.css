@@ -162,12 +162,6 @@ article p {
     gap: 10px;
 }
 
-/* input[type=submit] {
-    padding: 10px 15px;
-    background: #f17300;
-    border: 0 none;
-    font-size: 2rem;
-} */
 
 button {
     background-color: #f17300;
@@ -183,6 +177,9 @@ button {
 
 .form {
     font-family: roboto;
+}
+.iframe {
+    border: 0;      
 }
   
 

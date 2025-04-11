@@ -169,7 +169,7 @@ article p {
 .signup {
     display: block;
     font-size: 1.5rem;
-    font-family: roboto;
+    font-family: 'roboto';
     text-align: center;
     border: 5px #054A91 solid;
     padding: 5px;
@@ -231,9 +231,14 @@ button {
     align-items: center;
   }
 
+  h3 {
+    font-family: 'permanent marker';
+  }
+
   .trips img {
     display: block;
     align-items: left;
+    font-family: 'roboto';
   }
 
 footer {

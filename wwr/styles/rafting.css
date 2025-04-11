@@ -227,10 +227,8 @@ button {
   }
 
   .trips img {
-    table-layout: auto;
     display: block;
-    align-items: left
-    ;
+    align-items: left;
   }
 
 footer {

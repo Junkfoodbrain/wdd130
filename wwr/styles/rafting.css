@@ -166,6 +166,15 @@ article p {
     gap: 10px;
 }
 
+.signup {
+    display: block;
+    font-size: 1.5rem;
+    font-family: roboto;
+    text-align: center;
+    border: 5px #054A91 solid;
+    padding: 5px;
+  }
+
 
 button {
     background-color: #f17300;
@@ -177,6 +186,11 @@ button {
     display: inline-block;    
     font-size: 20px;
     font-weight: bold;
+}
+
+.groups {
+    background:#dbe4ee;
+    border: 5px solid #054a91;   
 }
 
 .form {
@@ -210,6 +224,13 @@ button {
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+  }
+
+  .trips img {
+    table-layout: auto;
+    display: block;
+    align-items: left
+    ;
   }
 
 footer {

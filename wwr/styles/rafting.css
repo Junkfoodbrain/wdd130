@@ -235,8 +235,8 @@ button {
 
   .groups {
     margin: 0 auto;
-    width: 98%;
-    padding: 10px;
+    width: 100%;
+    padding: 0px;
   }
 
   .adventure {
@@ -248,9 +248,11 @@ button {
   }
 
   .trips {
+    display: block;  
+    width: 100%;   
     background-color: #81a4cd;
     margin: 0 auto;
-    padding: 10px;
+    padding: 5px;
   }
 
   .trips img {

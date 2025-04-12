@@ -206,7 +206,9 @@ button {
 }
 
 .column {
-    float: left;
+    /* float: left; */
+    display: flex;
+    flex-direction: column-reverse;
     width: 25%;
     padding: 20px 10px;
   }

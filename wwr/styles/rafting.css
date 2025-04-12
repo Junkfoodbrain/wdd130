@@ -238,9 +238,8 @@ button {
   }
 
   .trips img {
-    display: block;
-    align-items: left;
-    font-family: 'roboto';
+    display: block;          
+    font-family: 'roboto';    
   }
 
 footer {

@@ -171,7 +171,8 @@ article p {
     font-size: 1.5rem;
     font-family: 'roboto';
     text-align: center;
-    border: 5px #054A91 solid;
+    width: 98.5%;
+    border: 10px #054A91 solid;
     padding: 5px;
   }
 
@@ -212,8 +213,11 @@ button {
     width: 25%;
     padding: 20px 10px;
   }
+
   .row {
-    margin: 0 -5px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: space-around;
 }
   
   .row:after {
@@ -222,11 +226,17 @@ button {
     clear: both;
   }
   .card {
-    display: inline-flex;
+    display: flex;    
     box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 8px;
+    padding: 10px;
     text-align: center; 
-    background-color: #dbe4ee;
+    background-color: #dbe4ee;    
+  }
+
+  .groups {
+    margin: 0 auto;
+    width: 98%;
+    padding: 10px;
   }
 
   .adventure {
@@ -237,9 +247,30 @@ button {
     font-family: 'permanent marker';
   }
 
+  .trips {
+    background-color: #81a4cd;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
   .trips img {
     display: block;          
     font-family: 'roboto';    
+  }
+
+  .trips h2 {
+    font-family: 'permanent marker';
+    font-size: 2rem;
+  }
+
+  .trips p {
+    font-family: 'roboto';
+  }
+
+  table {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
   }
 
 footer {

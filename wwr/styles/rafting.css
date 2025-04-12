@@ -189,6 +189,14 @@ article p {
     font-weight: bold;
 }
 
+tr img {
+    margin: 0 auto;    
+}
+
+tr {
+    text-align: center;
+}
+
 .groups {
     background:#dbe4ee;
     border: 5px solid #054a91;   
